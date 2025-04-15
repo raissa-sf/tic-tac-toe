@@ -1,0 +1,91 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5ecff; 
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.game {
+  text-align: center;
+  background-color: #f5ecff;  
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.jogo-da-velha {
+  font-size: 30px;
+  font-weight: bold;
+  color: #8E24AA;
+  margin-bottom: 20px;
+}
+.status {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.status-next-player {
+  font-size: 19px;
+  font-weight: bold;
+  color: #cc78f3; 
+}
+
+.status-winner {
+  font-size: 22px;
+  font-weight: bold;
+  color: #8E24AA; 
+}
+
+
+.board-row {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  background-color: #FFFFFF;
+  border: 2px solid #E1BEE7;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s ease;
+  border-radius: 8px;
+}
+
+
+.square:hover {
+  background-color: #cc78f3; 
+  transform: scale(1.1);
+}
+
+
+.reset-button {
+  background-color: #8E24AA;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.reset-button:hover {
+  background-color: #6A1B9A; 
+}
+
