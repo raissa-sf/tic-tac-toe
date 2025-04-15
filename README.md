@@ -2,7 +2,8 @@
 
 Um jogo da velha simples, bonito e funcional feito com **React** e **Vite**. Estilizado com uma paleta suave e moderna em tons de roxo pastel, o projeto permite partidas entre dois jogadores, identifica automaticamente o vencedor e inclui um botão de reinício.
 
-![Jogo da Velha - Preview](https://via.placeholder.com/600x300.png?text=Jogo+da+Velha+com+React) <!-- Substitua pelo link do seu screenshot/gif depois -->
+![Jogo da Velha - Preview](https://raw.githubusercontent.com/raissa-sf/tic-tac-toe/main/jogo%20da%20velha.png)
+
 
 ---
 
